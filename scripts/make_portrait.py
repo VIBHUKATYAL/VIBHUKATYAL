@@ -45,8 +45,8 @@ CURVE = 1.7                # the darkening curve — the difference-maker
 CROP_BOTTOM = 0.0          # fraction to trim off the bottom (torso, chair)
 ROW_RATIO = 0.48           # monospace cells are about twice as tall as wide
 
-FG_LIGHT = "#6e7681"       # readable on GitHub light — the portrait's grey
-FG_DARK = "#c9d1d9"        # and its dark-mode step
+FG_LIGHT = "#24292f"       # nearly black/dark gray for light theme
+FG_DARK = "#ffffff"        # pure white for dark theme
 CHAR_W = 7.74              # 0.600 em at FONT_SIZE — keep these in step
 FONT_SIZE = 12.9
 LINE_H = 15

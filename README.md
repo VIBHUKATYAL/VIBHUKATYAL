@@ -41,3 +41,4 @@ Self-generating ASCII GitHub profile repository.
 <img src="./year.svg?v=1" width="620" alt="The last year, one character per day"/>
 
 </div>
+
