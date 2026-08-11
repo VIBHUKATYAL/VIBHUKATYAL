@@ -10,8 +10,8 @@
 
 <img src="./hd-about.svg" width="620" alt="about"/>
 
-> 💻 Pre-final year B.Tech CSE student at ABES Engineering College.<br>
-> 🤖 Building autonomous AI agents, intelligent desktop tools, and self-governing cognitive engines.
+> Pre-final year B.Tech CSE student at ABES Engineering College.<br>
+> Building autonomous AI agents, intelligent desktop tools, and self-governing cognitive engines.
 
 Passionate about bridging the gap between cutting-edge LLMs and practical automation. Currently focused on developing AI systems that natively interact with computing environments.
 
