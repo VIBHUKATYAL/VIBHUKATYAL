@@ -1,45 +1,34 @@
 <div align="center">
 
-<img src="./ascii.svg" width="460" alt="Andrii Drok"/>
+<img src="./ascii.svg" width="460" alt="Vibhu Katyal"/>
 
 <img src="./stats.svg" width="620" alt="Contributions in the last year"/>
 
-[andriidrok.com](https://andriidrok.com) &nbsp;·&nbsp;
-[instagram](https://www.instagram.com/andrii_drok/) &nbsp;·&nbsp;
-[linkedin](https://www.linkedin.com/in/andriidrok/) &nbsp;·&nbsp;
-[email](mailto:clb@mirasvit.com)
+[github](https://github.com/VIBHUKATYAL)
 
 </div>
 
 <img src="./hd-about.svg" width="620" alt="about"/>
 
-> CS student at San Francisco State, in the SF Bay Area.<br>
+> Pre-final year B.Tech student in Computer Science and Engineering at ABES Engineering College.<br>
 > Small, sharp tools over big vague ideas.
 
-I build fast, test on real users, and kill what doesn't work. Right now that's<br>
-[autobroll](https://github.com/andriidrok1/autobroll) — an AI short-form video editor that runs in the browser. Also<br>
-deep into markets: Pine Script indicators, backtesting, on-chain data.
+Currently focusing on AI agents and desktop automation. Building systems that interact with the computer as a true AI agent.
 
 <img src="./hd-stack.svg" width="620" alt="stack"/>
 
-<samp>python &nbsp; typescript &nbsp; javascript &nbsp; react &nbsp; node &nbsp; three.js &nbsp; fastapi &nbsp; postgres &nbsp; docker &nbsp; git &nbsp; linux</samp>
+<samp>python &nbsp; c++ &nbsp; machine learning &nbsp; docker &nbsp; git &nbsp; linux</samp>
 
 <img src="./hd-projects.svg" width="620" alt="projects"/>
 
-**[autobroll](https://github.com/VIBHUKATYAL/autobroll)** &nbsp;·&nbsp; <samp>typescript, remotion</samp><br>
-AI short-form video editor in the browser. Auto captions with accents,<br>
-drag-and-retime editing, b-roll placement: transcript in, rendered video out.
+**[TARS-Desktop-AI-Agent](https://github.com/VIBHUKATYAL/TARS-Desktop-AI-Agent)** &nbsp;·&nbsp; <samp>python</samp><br>
+A desktop AI agent which performs computer operations as a true AI agent.
 
-**[strategy-checker](https://github.com/VIBHUKATYAL/strategy-checker)** &nbsp;·&nbsp; <samp>python</samp><br>
-Describe a trading strategy in plain English, get a real backtest with<br>
-statistical validation. Exposes curve-fitting, not alpha.
+**[Maya](https://github.com/VIBHUKATYAL/maya)** &nbsp;·&nbsp; <samp>python</samp><br>
+Personal AI Assistant built natively.
 
-**[compound](https://github.com/VIBHUKATYAL/compound)** &nbsp;·&nbsp; <samp>typescript, convex</samp><br>
-Autonomous research agent for your second brain. Built solo at Nozomio<br>
-Hackathon, EF SF.
-
-**[andriidrok.com](https://andriidrok.com)** &nbsp;·&nbsp; <samp>three.js, webgl</samp><br>
-Particle-morph portfolio: thousands of particles reshaping between scenes.
+**[ASCII_PORTRAIT](https://github.com/VIBHUKATYAL/ASCII_PORTRAIT)**<br>
+Self-generating ASCII GitHub profile repository.
 
 <img src="./hd-stats.svg" width="620" alt="stats"/>
 
