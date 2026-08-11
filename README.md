@@ -2,7 +2,7 @@
 
 <img src="./ascii.svg" width="460" alt="Vibhu Katyal"/>
 
-<img src="./stats.svg" width="620" alt="Contributions in the last year"/>
+<img src="./stats.svg?v=1" width="620" alt="Contributions in the last year"/>
 
 [github](https://github.com/VIBHUKATYAL)
 
@@ -34,10 +34,10 @@ Self-generating ASCII GitHub profile repository.
 
 <div align="center">
 
-<img src="./streak.svg" width="620" alt="Current and longest streak"/>
+<img src="./streak.svg?v=1" width="620" alt="Current and longest streak"/>
 
-<img src="./langs.svg" width="620" alt="Top languages by bytes and by repo"/>
+<img src="./langs.svg?v=1" width="620" alt="Top languages by bytes and by repo"/>
 
-<img src="./year.svg" width="620" alt="The last year, one character per day"/>
+<img src="./year.svg?v=1" width="620" alt="The last year, one character per day"/>
 
 </div>
