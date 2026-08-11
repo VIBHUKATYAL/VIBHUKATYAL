@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Turn a photo into ascii.svg — colored with phosphor green neon mapping for depth."""
+"""Turn a photo into ascii.svg — neon phosphorus green mapping without edge glow."""
 import argparse
 import sys
 import cv2
@@ -9,7 +9,7 @@ from rembg import remove
 
 RAMP = " .`:-=+*cs#%@"     # bright/sparse -> dark/dense; leading space = blank
 PALETTE = [
-    "#66ff66", # 0 brightest highlight (pure light green)
+    "#66ff66", # 0 brightest highlight (pure green)
     "#39ff14", # 1 pure neon green
     "#1fdf20", # 2
     "#18c919", # 3
@@ -47,25 +47,36 @@ def prep(path, crop=None):
     cut = remove(src)
     alpha = np.array(cut.split()[-1])
 
+
+    cut.putalpha(Image.fromarray(alpha))
+
+    # Composite onto pitch black to remove glowing hair artifacts
     black = Image.new("RGBA", cut.size, (0, 0, 0, 255))
     gray = np.array(Image.alpha_composite(black, cut).convert("L"))
-
+    
     gray = cv2.bilateralFilter(gray, 11, 50, 50)
     gray = cv2.createCLAHE(clipLimit=CLAHE_CLIP, tileGridSize=(8, 8)).apply(gray)
     gray = (255.0 * (gray / 255.0) ** CURVE).astype("uint8")
+    
+    # Force absolute background to white (index 0 / Space)
     gray[alpha < 20] = 255
-    return Image.fromarray(gray)
+    return Image.fromarray(gray), Image.fromarray(alpha)
 
-def to_lines(img, cols=COLS, gamma=GAMMA):
+def to_lines(images, cols=COLS, gamma=GAMMA):
+    img, alpha_img = images
     w, h = img.size
     if CROP_BOTTOM:
         trim_h = int(h * (1 - CROP_BOTTOM))
         img = img.crop((0, 0, w, trim_h))
+        alpha_img = alpha_img.crop((0, 0, w, trim_h))
         w, h = img.size
 
     rows = int(cols * (h / w) * ROW_RATIO)
     img = img.resize((cols, rows), Image.LANCZOS)
+    alpha_img = alpha_img.resize((cols, rows), Image.LANCZOS)
+    
     px = list(img.getdata())
+    px_a = list(alpha_img.getdata())
     n = len(RAMP)
 
     out = []
@@ -78,6 +89,12 @@ def to_lines(img, cols=COLS, gamma=GAMMA):
         for c in range(cols):
             val = px[r * cols + c] / 255.0
             idx = min(n - 1, int((1 - val) ** gamma * n))
+            
+            # Anti-glow edge containment mechanism!
+            a_val = px_a[r * cols + c]
+            if 20 <= a_val < 220:
+                idx = max(idx, 9)
+                
             chars.append(RAMP[idx])
             indices.append(idx)
             
