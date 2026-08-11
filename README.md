@@ -17,15 +17,15 @@ Currently focusing on AI agents and desktop automation. Building systems that in
 
 <img src="./hd-stack.svg" width="620" alt="stack"/>
 
-`python` &nbsp; `c++` &nbsp; `machine learning` &nbsp; `docker` &nbsp; `git` &nbsp; `linux`
+`python` &nbsp; `machine learning` &nbsp; `vercel` &nbsp; `groq llama 3` &nbsp; `supabase postgresql` &nbsp; `docker` &nbsp; `git` &nbsp; `linux`
 
 <img src="./hd-projects.svg" width="620" alt="projects"/>
 
 **[TARS-Desktop-AI-Agent](https://github.com/VIBHUKATYAL/TARS-Desktop-AI-Agent)** &nbsp;·&nbsp; `python`<br>
 A desktop AI agent which performs computer operations as a true AI agent.
 
-**[Maya](https://github.com/VIBHUKATYAL/maya)** &nbsp;·&nbsp; `python`<br>
-Personal AI Assistant built natively.
+**[Maya](https://github.com/VIBHUKATYAL/maya)** &nbsp;·&nbsp; `vercel` `groq` `supabase`<br>
+_Self-Governing, Multi-Persona Cognitive Discovery Engine._ Fully Autonomous agent natively built.
 
 **[ASCII_PORTRAIT](https://github.com/VIBHUKATYAL/ASCII_PORTRAIT)**<br>
 Self-generating ASCII GitHub profile repository.
