@@ -4,7 +4,7 @@
 
 <img src="./stats.svg?v=31" width="620" alt="Contributions in the last year"/>
 
-[github](https://github.com/VIBHUKATYAL)
+<a href="https://github.com/VIBHUKATYAL"><img src="./link-github.svg" height="18" alt="github"/></a>
 
 </div>
 
@@ -21,13 +21,13 @@ Passionate about bridging the gap between cutting-edge LLMs and practical automa
 
 <img src="./hd-projects.svg" width="620" alt="projects"/>
 
-**[TARS-Desktop-AI-Agent](https://github.com/VIBHUKATYAL/TARS-Desktop-AI-Agent)** &nbsp;·&nbsp; `javascript` `python`<br>
+<a href="https://github.com/VIBHUKATYAL/TARS-Desktop-AI-Agent"><img src="./link-tars.svg" height="18" alt="TARS-Desktop-AI-Agent"/></a> &nbsp;·&nbsp; `javascript` `python`<br>
 A desktop AI agent which performs computer operations as a true AI agent.
 
-**[Maya](https://github.com/VIBHUKATYAL/maya)** &nbsp;·&nbsp; `vercel` `groq` `supabase`<br>
+<a href="https://github.com/VIBHUKATYAL/maya"><img src="./link-maya.svg" height="18" alt="Maya"/></a> &nbsp;·&nbsp; `vercel` `groq` `supabase`<br>
 _Self-Governing, Multi-Persona Cognitive Discovery Engine._ Fully Autonomous agent natively built.
 
-**[ASCII_PORTRAIT](https://github.com/VIBHUKATYAL/ASCII_PORTRAIT)**<br>
+<a href="https://github.com/VIBHUKATYAL/ASCII_PORTRAIT"><img src="./link-ascii.svg" height="18" alt="ASCII_PORTRAIT"/></a><br>
 Self-generating ASCII GitHub profile repository.
 
 <img src="./hd-stats.svg" width="620" alt="stats"/>
@@ -41,9 +41,3 @@ Self-generating ASCII GitHub profile repository.
 <img src="./year.svg?v=31" width="620" alt="The last year, one character per day"/>
 
 </div>
-
-
-
-
-
-
