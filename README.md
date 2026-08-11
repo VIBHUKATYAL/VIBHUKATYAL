@@ -10,10 +10,10 @@
 
 <img src="./hd-about.svg" width="620" alt="about"/>
 
-> Pre-final year B.Tech student in Computer Science and Engineering at ABES Engineering College.<br>
-> Small, sharp tools over big vague ideas.
+> 💻 Pre-final year B.Tech CSE student at ABES Engineering College.<br>
+> 🤖 Building autonomous AI agents, intelligent desktop tools, and self-governing cognitive engines.
 
-Currently focusing on AI agents and desktop automation. Building systems that interact with the computer as a true AI agent.
+Passionate about bridging the gap between cutting-edge LLMs and practical automation. Currently focused on developing AI systems that natively interact with computing environments.
 
 <img src="./hd-stack.svg" width="620" alt="stack"/>
 
