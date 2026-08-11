@@ -47,8 +47,8 @@ def prep(path, crop=None):
     cut = remove(src)
     alpha = np.array(cut.split()[-1])
 
-    white = Image.new("RGBA", cut.size, (255, 255, 255, 255))
-    gray = np.array(Image.alpha_composite(white, cut).convert("L"))
+    black = Image.new("RGBA", cut.size, (0, 0, 0, 255))
+    gray = np.array(Image.alpha_composite(black, cut).convert("L"))
 
     gray = cv2.bilateralFilter(gray, 11, 50, 50)
     gray = cv2.createCLAHE(clipLimit=CLAHE_CLIP, tileGridSize=(8, 8)).apply(gray)
