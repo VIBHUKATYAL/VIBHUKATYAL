@@ -1,6 +1,6 @@
 import os
 
-GREEN = '#1fdf20'
+GREEN = '#1e6b1e'
 FONT = 'ui-monospace,SFMono-Regular,Menlo,Consolas,monospace'
 
 def make_link_svg(text, filename):
