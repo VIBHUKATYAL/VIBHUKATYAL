@@ -27,7 +27,7 @@ A desktop AI agent which performs computer operations as a true AI agent.
 <a href="https://github.com/VIBHUKATYAL/maya"><img src="./link-maya.svg" height="18" alt="Maya"/></a> &nbsp;·&nbsp; `vercel` `groq` `supabase`<br>
 _Self-Governing, Multi-Persona Cognitive Discovery Engine._ Fully Autonomous agent natively built.
 
-<a href="https://github.com/VIBHUKATYAL/ASCII_PORTRAIT"><img src="./link-ascii.svg" height="18" alt="ASCII_PORTRAIT"/></a><br>
+<a href="https://github.com/VIBHUKATYAL/VIBHUKATYAL"><img src="./link-ascii.svg" height="18" alt="ASCII_PORTRAIT"/></a><br>
 Self-generating ASCII GitHub profile repository.
 
 <img src="./hd-stats.svg" width="620" alt="stats"/>
